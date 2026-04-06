@@ -1,11 +1,13 @@
 # M-2 OPERATORS CONDITIONAL STATEMENT
 
-### what is operators 
+### what is operators
 
 - An operator is a symbol or keyword that tells the computer what operation it should perform on values or variables.
 
 In the example below, the + operator is used to add the numbers 10 and 5 together
+
 ## 2-1 Arithmetic Operators
+
 ![alt text](image.png)
 ![alt text](image-1.png)
 ![alt text](image-2.png)
@@ -33,3 +35,100 @@ int main()
   return 0;
 }
 ```
+
+## 2-2 Modules operator
+
+```c
+#include<stdio.h>
+int main()
+{
+    int a = 12;
+    int b = 5;
+    int rem = a % b;
+    printf("%d",rem);
+    return 0;
+}
+```
+
+## 2-3 Relational operators
+
+![alt text](image-5.png)
+
+## 2-4 Logical operators
+
+![alt text](image-6.png)
+
+## 2-7 If else
+
+```c
+#include<stdio.h>
+int main()
+{
+    int tk ;
+    scanf("%d",&tk);
+    if(tk >=100)
+    {
+printf("burger khabo\n");
+    }
+    else
+    {
+printf("burger khabo na ");
+    }
+}
+```
+
+## 2-9 If else ladder
+
+```c
+#include<stdio.h>
+int main()
+{
+    int tk;
+    scanf("%d",&tk);
+    if(tk >=100 )
+    {
+        printf("burger khabo ");
+    }else if( tk >=50)
+    {
+        printf("fuska khabo");
+    } else if(tk >30)
+    {
+        printf("anda khabo ");
+    }
+    else
+    {
+        printf("kichui khabo na ");
+    }
+}
+```
+
+## 2-11 Nested if else
+
+```c
+#include<stdio.h>
+int main()
+{
+int tk;
+scanf("%d",&tk);
+if(tk >=5000)
+{
+    printf("coxs bazar jabo\n ");
+    if(tk >=10000)
+    {
+        printf("saint martin jabo");
+    }
+    else
+    {
+        printf("ar jawa hobe na");
+    }
+}
+else
+{
+    printf("kothao jabo na ");
+
+}
+
+}
+```
+
+## 2-13 If else variation

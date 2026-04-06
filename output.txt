@@ -1,4 +1,2 @@
-summation = 17
-subtraction = 13
-multiplication= 30
-division = 7.500000
+coxs bazar jabo
+ saint martin jabo
