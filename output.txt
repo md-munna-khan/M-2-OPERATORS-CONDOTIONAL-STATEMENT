@@ -1,0 +1,4 @@
+summation = 17
+subtraction = 13
+multiplication= 30
+division = 7.500000
